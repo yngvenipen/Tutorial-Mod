@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorial-mod",
+	"version": "${version}",
+	"name": "Tutorial Mod",
+	"description": "Tutorial Mod (Help From Modding By Kaupenjoe)",
+	"authors": [
+		"Yngve"
+	],
+	"contact": {
+		"sources": "https://github.com/yngvenipen/Tutorial-Mod"
+	},
+	"license": "MIT",
+	"icon": "assets/tutorial-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.yngve.tutorialmod.TutorialMod"
+		],
+		"fabric-datagen": [
+			"net.yngve.tutorialmod.TutorialModDataGenerator"
+		],
+		"client": [
+			"net.yngve.tutorialmod.TutorialModClient"
+		]
+	},
+	"mixins": [
+		"tutorial-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
