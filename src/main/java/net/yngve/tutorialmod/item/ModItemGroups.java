@@ -21,7 +21,9 @@ public class ModItemGroups {
                                 entries.add(ModItems.PINK_GARNET);
                                 entries.add(ModItems.RAW_PINK_GARNET);
 
-                                })
+                                entries.add(ModItems.CHISEL);
+
+                            })
                             .build()
             );
 
@@ -38,7 +40,7 @@ public class ModItemGroups {
 
                                 entries.add(ModBlocks.PINK_GARNET_ORE);
                                 entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
-                                }).build()
+                            }).build()
             );
 
 
